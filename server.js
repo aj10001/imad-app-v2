@@ -9,12 +9,13 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/home.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'home.html'));
-});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+});
+
+app.get('/home.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'home.html'));
 });
 
 app.get('/ui/IMG_2145-01.jpeg', function (req, res) {
