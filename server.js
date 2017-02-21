@@ -37,6 +37,10 @@ app.get('/ui/IMG_20160825_161146-01.jpeg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'IMG_20160825_161146-01.jpeg'));
 });
 
+app.get('/ui/IMG_20160821_113443-01.jpeg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'IMG_20160825_161146-01.jpeg'));
+});
+
 app.get('/ui/IMG_2292-02.jpeg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'IMG_2292-02.jpeg'));
 });
