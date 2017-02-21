@@ -21,6 +21,19 @@ app.get('/ui/IMG_2145-01.jpeg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'IMG_2145-01.jpeg'));
 });
 
+app.get('/ui/IMG_20160818_130052-01.jpeg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'IMG_20160818_130052-01.jpeg'));
+});
+
+app.get('/ui/IMG_20160819_105405-01.jpeg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'IMG_20160819_105405-01.jpeg'));
+});
+
+app.get('/ui/IMG_20160820_183711-01.jpeg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'IMG_20160820_183711-01.jpeg'));
+});
+
+
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
